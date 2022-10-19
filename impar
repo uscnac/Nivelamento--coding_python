@@ -1,0 +1,9 @@
+def verificaNum(n):
+    if n % 2 == 0:
+        return True
+    return False
+
+n = int(input())
+while n > 0:
+    print(verificaNum(n))
+    n = int(input())
