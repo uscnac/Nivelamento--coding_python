@@ -1,0 +1,11 @@
+cidA = int(input())
+cidB = int(input()) 
+ano = 0 
+
+while cidA < cidB :
+  cidA = cidA + (cidA * (3 / 100))
+  cidB = cidB + (cidB * (1.5 / 100))
+  ano += 1
+  print('{:.0f} {:.0f}'. format(int(cidA), int(cidB)))
+  
+print(ano)
