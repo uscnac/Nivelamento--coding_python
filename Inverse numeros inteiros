@@ -1,0 +1,8 @@
+n = list(input())
+reverso = []
+
+for cont in n:
+ reverso.append(int(cont))
+
+print(list(reversed(reverso)))
+ 
