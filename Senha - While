@@ -1,0 +1,9 @@
+nome_usu = str(input())
+senha = str(input())
+
+while senha == nome_usu :
+ print('erro')
+ nome_usu = str(input())
+ senha = str(input())
+
+print('tudo certo')
