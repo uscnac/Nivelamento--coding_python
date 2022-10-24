@@ -1,0 +1,11 @@
+n = 0
+i = 0 
+while i < 5:
+	x = int(input())
+	n += x
+	i += 1
+
+media = n / 5 
+
+print(n)
+print(round(media, 1))
