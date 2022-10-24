@@ -1,0 +1,43 @@
+nome = str(input())
+idade = int(input())
+salario = float(input())
+sexo = str(input())
+estadoC = str(input())
+
+tudoOK = True
+
+if len(nome) > 3 :
+ print('ok')
+else: 
+ print('nada ok')
+ tudoOK = False
+
+if idade > 0 and idade < 150 :
+ print('ok')
+else: 
+ print('nada ok')
+ tudoOK = False
+
+if salario > 0 :
+ print('ok')
+else: 
+ print('nada ok')
+ tudoOK = False
+
+if sexo == 'f' or sexo == 'm' :
+ print('ok')
+else: 
+ print('nada ok')
+ tudoOK = False
+
+if estadoC == 's' or estadoC == 'c' or estadoC == 'v' or estadoC == 'd' :
+ print('ok')
+else: 
+ print('nada ok')
+ tudoOK = False
+
+if tudoOK == False : 
+ print('nao')
+
+else: 
+ print('sim')
