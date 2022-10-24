@@ -1,0 +1,18 @@
+eleitor = int(input())
+cont = 0
+diunkz = 0
+alan = 0
+gabriel = 0
+
+while cont != eleitor :
+ cont += 1
+ voto = int(input())
+
+ if voto == 99:
+  diunkz += 1
+ elif voto == 88:
+  alan += 1
+ elif voto == 77 :
+  gabriel += 1
+
+print('diunkz: {} / alan: {} / gabriel: {}'. format(diunkz, alan, gabriel))
