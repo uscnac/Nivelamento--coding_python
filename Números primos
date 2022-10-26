@@ -1,0 +1,11 @@
+n = int(input())
+primos = []
+
+for cont in range (2, n):
+ if n % cont == 0:
+  primos.append(cont)
+	
+if len(primos) == 0:
+	print('PRIMO')
+else:
+ print(primos)
