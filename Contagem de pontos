@@ -1,0 +1,130 @@
+n1 = str(input())
+n2 = str(input())
+n3 = str(input())
+n4 = str(input())
+n5 = str(input())
+n6 = str(input())
+n7 = str(input())
+n8 = str(input())
+n9 = str(input())
+n10 = str(input())
+aluno = str(input())
+quant = 1
+
+cont = 0
+acerto = 0
+erro = 0
+A = 0
+
+if n1 == 'A':
+	acerto += 1
+	A += 1
+else: erro += 1 
+if n2 == 'B':
+	acerto += 1 
+	A += 1
+else: erro += 1
+if n3 == 'C':
+	acerto += 1 
+	A += 1
+else: erro += 1
+if n4 == 'D':
+	acerto += 1 
+	A += 1
+else: erro += 1
+if n5 == 'E':
+	acerto += 1 
+	A += 1
+else: erro += 1
+if n6 == 'E':
+	acerto += 1 
+	A += 1
+else: erro += 1
+if n7 == 'D':
+	acerto += 1 
+	A += 1
+else: erro += 1
+if n8 == 'C':
+	acerto += 1 
+	A += 1
+else: erro += 1
+if n9 == 'B':
+	acerto += 1 
+	A += 1
+else: erro += 1
+if n10 == 'A':
+	acerto += 1 
+	A += 1
+else: erro += 1
+
+maiorA = acerto
+maiorE = erro
+
+while aluno == 'sim':
+	n1 = str(input())
+	n2 = str(input())
+	n3 = str(input())
+	n4 = str(input())
+	n5 = str(input())
+	n6 = str(input())
+	n7 = str(input())
+	n8 = str(input())
+	n9 = str(input())
+	n10 = str(input())
+	quant += 1
+	aluno = str(input())
+	
+	acerto = 0
+	erro = 0
+	
+	if n1 == 'A':
+		acerto += 1
+		A += 1
+	else: erro += 1 
+	if n2 == 'B':
+		acerto += 1 
+		A += 1
+	else: erro += 1
+	if n3 == 'C':
+		acerto += 1 
+		A += 1
+	else: erro += 1
+	if n4 == 'D':
+		acerto += 1 
+		A += 1
+	else: erro += 1
+	if n5 == 'E':
+		acerto += 1 
+		A += 1
+	else: erro += 1
+	if n6 == 'E':
+		acerto += 1 
+		A += 1
+	else: erro += 1
+	if n7 == 'D':
+		acerto += 1 
+		A += 1
+	else: erro += 1
+	if n8 == 'C':
+		acerto += 1 
+		A += 1
+	else: erro += 1
+	if n9 == 'B':
+		acerto += 1 
+		A += 1
+	else: erro += 1
+	if n10 == 'A':
+		acerto += 1 
+		A += 1
+	else: erro += 1
+	
+	if acerto > maiorA :
+		maiorA = acerto
+		
+	if erro > maiorE :
+		maiorE = erro
+		
+print(maiorA)
+print(maiorE)
+print(quant)
+print(round(A/quant, 2))
